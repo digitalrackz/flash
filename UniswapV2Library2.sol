@@ -2,7 +2,7 @@ pragma solidity >=0.5.0;
 
 import 'https://github.com/jklepatch/eattheblocks/blob/master/screencast/310-flashloan-bsc/contracts/interfaces/IUniswapV2Pair.sol';
 
-import "https://github.com/digitalrackz/flash/blob/main/safemath.sol";
+import "./math/safemath.sol";
 
 library UniswapV2Library {
     using SafeMath for uint;
